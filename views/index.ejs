@@ -1,11 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include('layouts/header.ejs')  %>
+
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>Hola, soy Aymer Yesid Cruz Suescun, me dedico a la programación, con este blog puedes encontrar parte de mi trabajo a sí mismo como mi portafolio, por favor explora lo que desees y espero que encuentres en mi lo que necesites.</p><hr>
+      <h2>Portafolio de desarrollo:</h2>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    </div>
+    </div>
+
+<%- include('layouts/footer.ejs')  %>
+ 
